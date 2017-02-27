@@ -1,0 +1,903 @@
+/*chargement des polices*/
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Thin';
+    src: url('Raleway-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraLight';
+    src: url('Raleway-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Italic';
+    src: url('Raleway-Italic.ttf') format('truetype');
+}
+
+.container, .container-fluid {
+    margin: 0px auto;
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.wrapper {
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/***********************************************************************************************************************
+******************************************************Page D'acceuil****************************************************
+***********************************************************************************************************************/
+/*Entete*/
+#entete {
+    background-image: url("entete.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 15vw;
+    font-family: Raleway-Thin;
+    color: #ffffff;
+    font-size: 55pt;
+    text-align: center;
+    padding-top: 4vw;
+}
+
+@media (max-width: 477px) {
+    #entete{
+        font-size: 40pt;
+    }
+}
+/*Menu*/
+#menu {
+    background-color: #ffffff;
+    border-bottom: 4px solid #5078b4;
+}
+
+#menu a {
+    text-align: center;
+    font-size: 25px;
+    color: #505050;
+    font-family: Helvetica;
+}
+
+#menu .active {
+    text-align: center;
+    color: #c8d2ff;
+    background-color: #ffffff;
+    border-bottom: 4px solid #c8d2ff;
+}
+
+#menu a:hover {
+    text-align: center;
+    color: #c8d2ff;
+    background-color: #ffffff;
+    border-bottom: 4px solid #c8d2ff;
+}
+
+@media (min-width: 768px) {
+    #menu {
+        height: 54px;
+    }
+}
+
+.icon-bar {
+    background-color: #5078b4;
+}
+
+/*Presentation*/
+#presentation {
+    background-color: white;
+    padding: 150px 25px 20px 30px;
+    background-image: url("photo.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-align: justify;
+    color: #505050;
+}
+
+#presentation h1 {
+    font-family: Raleway-Bold;
+    font-size: 20pt;
+    padding-bottom: 10px;
+}
+
+#presentation p {
+    font-family: Raleway-Medium;
+    font-size: 12pt;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 967px) {
+    #presentation {
+        padding-top: 0px;
+        background-position: bottom;
+    }
+
+    #presentation .texte {
+        padding: 1px 20px 300px 20px;
+    }
+}
+
+@media (min-width: 968px) {
+    #presentation .texte {
+        padding-left: 500px;
+        padding-right: 20px;
+    }
+}
+
+/*Formation*/
+#formation {
+    color: #3e3e3e;
+    background-color: #ececec;
+    background-image: url("bandeau.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#formation .container {
+    font-family: Raleway-ExtraLight;
+    font-size: 26pt;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#formation .dateForm {
+    text-align: center;
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+
+#formation .date1 {
+    font-family: Raleway-Thin;
+}
+
+#formation .date2 {
+    font-family: Raleway-Medium;
+}
+
+#formation h1 {
+    font-family: Raleway-Regular;
+    font-size: 18pt;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#formation .info, .pageContact .info {
+    color: #648cc8;
+}
+
+#formation p {
+    font-family: Raleway-Medium;
+    font-size: 12pt;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#formation a {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #343434;
+    padding: 2px 80px 2px 5px;
+    font-family: Raleway-Medium;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+#formation a:hover {
+    background-color: #a0bbfe;
+    color: #343434;
+}
+
+/*Dernier Poste*/
+#dernierPoste {
+    background-color: #ffffff;
+    background-image: url("bandeau.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #505050;
+
+}
+
+#dernierPoste .container {
+    font-family: Raleway-ExtraLight;
+    font-size: 26pt;
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+}
+
+#dernierPoste h1 {
+    font-family: Raleway-Regular;
+    font-size: 20pt;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#dernierPoste .info {
+    color: #648cc8;
+}
+
+#dernierPoste p {
+    font-family: Raleway-Medium;
+    font-size: 12pt;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#dernierPoste a {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #343434;
+    padding: 2px 80px 2px 5px;
+    font-family: Raleway-Medium;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+#dernierPoste a:hover {
+    background-color: #a0bbfe;
+    color: #3e3e3e;
+}
+
+/*Competences*/
+#competences {
+    background-color: #a0bbfe;
+    background-image: linear-gradient(140deg, #a0bbfe, #567ad0);
+
+}
+
+/*Competences titre*/
+#competences .titre {
+    height: 110px;
+    color: #ffffff;
+    font-family: Raleway-ExtraLight;
+    font-size: 26pt;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*Competences graphique et texte*/
+#competences .texte-img {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/*Competence texte*/
+#competences .texte {
+    background-color: #ffffff;
+    margin-left: 0px;
+    text-align: justify;
+    height: 100%;
+    -moz-box-shadow: 0px 0px 15px 0px #656565;
+    -webkit-box-shadow: 0px 0px 15px 0px #656565;
+    -o-box-shadow: 0px 0px 15px 0px #656565;
+    box-shadow: 0px 0px 15px 0px #656565;
+}
+
+#competences .texte h1 {
+    font-family: Raleway-Medium;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#competences .texte p {
+    font-family: Raleway-Italic;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #505050;
+}
+
+/*Comptences graphique*/
+#competences .graphisme {
+    background-image: url("graphe.png");
+    background-repeat: no-repeat;
+}
+
+#competences .indice {
+    text-align: left;
+    color: #ffffff;
+    font-family: Raleway-Regular;
+}
+
+#competences .ind {
+    transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -khtml-transform: rotate(40deg);
+}
+
+#competences .barre {
+    height: 225px;
+}
+
+#competences .b1, #competences .b2, #competences .b3, #competences .b4, #competences .b5 {
+    position: relative;
+    width: 15px;
+    left: 15px;
+    background-color: #ffffff;
+}
+
+#competences .b1Init, #competences .b2Init, #competences .b3Init, #competences .b4Init, #competences .b5Init {
+    top: 220px;
+    height: 0px;
+}
+
+#competences .b1 {
+    transition-property: height, top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+    top: 67px;
+    height: 153px;
+}
+
+#competences .b2 {
+    transition-property: height, top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+    top: 106px;
+    height: 114px;
+}
+
+#competences .b3 {
+    transition-property: height, top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+    top: 40px;
+    height: 180px;
+}
+
+#competences .b4 {
+    transition-property: height, top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+    top: 163px;
+    height: 57px;
+}
+
+#competences .b5 {
+    transition-property: height, top;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+    top: 90px;
+    height: 130px;
+}
+
+@media (min-width: 992px) {
+    #competences .texte {
+        height: 350px;
+    }
+
+    #competences .graphisme {
+        background-position: 50% 20px;
+        background-size: 80% 200px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #competences .texte {
+        height: 470px;
+    }
+
+    #competences .graphisme {
+        background-position: 50% 20px;
+        background-size: 80% 200px;
+        height: 470px;
+    }
+}
+
+@media (max-width: 767px) {
+    #competences .graphisme {
+        background-position: 50% 20px;
+        background-size: 80% 200px;
+        height: 330px;
+    }
+}
+
+/*Competences icones*/
+#competences .ico {
+    font-family: Raleway-Regular;
+    color: white;
+    text-align: left;
+    margin: 50px 0px;
+}
+
+#competences .espaceIcone {
+    margin-bottom: 120px;
+}
+
+@media (max-width: 767px) {
+    #competences .ico {
+        margin: 25px 0px;
+    }
+}
+
+#competences .ico .text {
+    padding-top: 20px;
+}
+
+#competences .ico1 {
+    height: 44px;
+    background: url('tasse.png') no-repeat right;
+}
+
+#competences .ico2 {
+    height: 44px;
+    background: url('tasse.png') no-repeat right;
+}
+
+#competences .ico3 {
+    height: 44px;
+    background: url('tasse.png') no-repeat right;
+}
+
+#competences .ico4 {
+    height: 44px;
+    background: url('tasse.png') no-repeat right;
+}
+
+/*Contact*/
+
+#contact .bande {
+
+    background-color: #68707d;
+    border-radius: 100%;
+    height: 300px;
+    margin-top: -100px;
+    width: 140%;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+
+#contact .formulaire {
+    background-image: linear-gradient(180deg, #68707d, #38414a);
+    padding-bottom: 50px;
+
+}
+
+#contact .titre {
+    font-family: Raleway-ExtraLight;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -250px;
+    font-size: 26pt;
+    margin-bottom: 100px;
+}
+
+#contact input {
+    height: 28px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#contact textarea {
+    text-align: right;
+}
+
+#contact textarea:focus {
+    text-align: left;
+}
+
+#contact .fb a {
+    display: block;
+    background-image: url('fb.png');
+    width: 59px;
+    height: 59px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+#contact .twit a {
+    display: block;
+    background-image: url('twitter.png');
+    width: 54px;
+    height: 48px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#contact .in a {
+    display: block;
+    background-image: url('in.png');
+    width: 40px;
+    height: 41px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+footer {
+    background-color: #343434;
+    color: #c8d2ff;
+    font-family: Raleway-Regular;
+    font-size: 12pt;
+    height: 25px;
+
+}
+
+footer .left {
+    text-align: left;
+}
+
+footer .right {
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    #contact .formulaire {
+        padding-bottom: 130px;
+    }
+
+    #contact .fb a {
+        top: 300px;
+        left: 10%;
+    }
+
+    #contact .twit a {
+        top: 250px;
+        left: 43%;
+    }
+
+    #contact .in a {
+        top: 200px;
+        left: 76%;
+    }
+
+    footer {
+        height: 47px;
+    }
+}
+
+@media (max-width: 383px) {
+    footer {
+        height: 70px;
+    }
+}
+
+/***********************************************************************************************************************
+******************************************************Page Experience***************************************************
+***********************************************************************************************************************/
+.titreExperience, .titreProjet, .titreContact {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: Raleway-Regular;
+    color: #618ec7;
+    font-size: 26pt;
+    padding-bottom: 20px;
+}
+
+.bordureLeft {
+    border-left: 1px solid #618ec7;
+    margin-left: 65px;
+}
+
+.bordureRight {
+    border-right: 1px solid #618ec7;
+    margin-right: 65px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.premPart {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.milieu {
+    padding-top: 8vw;
+    padding-bottom: 10vw;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.dernPart {
+    padding-top: 15vw;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+.date {
+    margin-top: 50px;
+    font-size: 18pt;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-left: -20px;
+    padding: 20px 0px 30px 5px;
+}
+
+.dateMilieu {
+    margin-top: 50px;
+    font-size: 18pt;
+    z-index: 1;
+    margin-right: -10px;
+    padding: 20px 10px 30px 5px;
+    text-align: right;
+    background-color: #eeeeee;
+}
+
+.date1 {
+    font-family: Raleway-Thin;
+}
+
+.date2 {
+    font-family: Raleway-Medium;
+}
+
+.textExp {
+    margin-top: 50px;
+    padding-right: 80px;
+}
+
+.textExp p {
+    font-family: Raleway-Regular;
+    font-size: 12pt;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.textExp h1 {
+    font-family: Raleway-Medium;
+    font-size: 20pt;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.milieu .textExp {
+    padding-bottom: 50px;
+
+}
+
+.fond {
+    background-color: #eeeeee;
+    width: 200%;
+    margin-left: -50%;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+    -moz-box-shadow: 0px 0px 60px 0px #dadada inset;
+    -webkit-box-shadow: 0px 0px 60px 0px #dadada inset;
+    -o-box-shadow: 0px 0px 60px 0px #dadada inset;
+    box-shadow: 0px 0px 60px 0px #dadada inset;
+}
+
+@media (max-width: 400px) {
+    .fond {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .bordureRight {
+        margin-right: 10px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .milieu {
+        padding-top: 8vw;
+        padding-bottom: 10vw;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    .bordureLeft {
+        border-left: 1px solid #618ec7;
+        margin-left: 30px;
+    }
+    .titreExperience, .titreProjet{
+        margin-left: 10px;
+    }
+    .textExp {
+        padding-right: 30px;
+    }
+}
+
+/***********************************************************************************************************************
+******************************************************Page Projet*******************************************************
+***********************************************************************************************************************/
+
+.espace {
+    height: 100px;
+    border-left: 2px solid #618ec7;
+    margin-bottom: 30px;
+    margin-left: 65px;
+}
+
+.textIntroProjet {
+    margin-bottom: 50px;
+}
+
+.textIntroProjet p {
+    font-family: Raleway-Regular;
+    font-size: 12pt;
+    text-align: justify;
+    margin-bottom: 0px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+iframe {
+    width: 100%;
+    height: 40vw;
+    padding-bottom: 0px;
+}
+.projet  {
+    margin-top: -5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    background-image: url("bandeau.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.projet .container {
+    font-family: Raleway-ExtraLight;
+    font-size: 26pt;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.projet .text{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #505050;
+    text-align: justify;
+}
+.projet .text h1{
+    font-family: Raleway-Bold;
+    font-size: 19pt;
+    padding-bottom: 20px;
+}
+
+.projet .text p{
+    font-family: Raleway-Regular;
+    font-size: 12pt;
+}
+.indiceProjet {
+    z-index: 0;
+    margin-top:  70px;
+    margin-bottom:  70px;
+    padding-bottom: 50px;
+    font-family: Raleway-Regular;
+    font-size: 13pt;
+    color : #3e3e3e;
+    background-color: #eeeeee;
+    -moz-box-shadow: 0px 0px 20px 0px #eeeeee inset;
+    -webkit-box-shadow: 0px 0px 20px 0px #eeeeee inset;
+    -o-box-shadow: 0px 0px 20px 0px #eeeeee inset;
+    box-shadow: 0px 0px 20px 0px #eeeeee inset;
+}
+.indiceProjet .indice1{
+    margin-top: 50px;
+    background: url("ind1Proj.png") no-repeat;
+    background-position: center 10px;
+    height: 60px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.indiceProjet .indice2{
+    background: url("ind2Proj.png") no-repeat;
+    background-position: center 10px;
+    height: 65px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 45px;
+}
+.indiceProjet .indice3{
+    margin-top: 50px;
+    background: url("ind3Proj.png") no-repeat;
+    background-position: center 10px;
+    height: 90px;
+    text-align: center;
+    padding-top: 75px;
+}
+.indiceProjet .indice4{
+    margin-top: 50px;
+    background: url("ind4Proj.png") no-repeat;
+    background-position: center 10px;
+    height: 90px;
+    text-align: center;
+    padding-top: 75px;
+}
+.projet .commentaire{
+    margin-top: 50px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.pageContact{
+    text-align: center;
+    font-family: Raleway-Regular;
+    font-size: 12pt;
+}
+.pageContact h1{
+    font-size: 18pt;
+}
+
+.pageContact .coord{
+    margin-bottom: 70px;
+}
+
+.pageContact .formulaire{
+    background-image: linear-gradient(180deg, #ffffff, #505050);
+    padding : 150px 30px 70px 0px;
+    margin-right: -45px;
+}
+
+.pageContact input {
+    height: 28px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.message{
+    text-align: center;
+    font-family: Raleway-Regular;
+    font-size: 22pt;
+}
+
+@media (max-width: 400px) {
+    .espace {
+        margin-left: 30px;
+    }
+    .projet .text{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .textIntroProjet p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
